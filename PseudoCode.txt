@@ -1,0 +1,20 @@
+//Pseudo code tofind average of odd numbers
+//Problem is mathematical calculation
+//Steps to keep count of odd numbers input by a user then finding its average
+// Inputs: numbers and characters to break the sytem
+//Outputs: average of odd numbers
+
+Prompt the user to enter numbers and a certain character to break the system
+input numbers
+input character to end the input
+  OddCount=0
+  sum=0
+IF(number<0)
+ output: please enter a natural number
+IF(number%2!=0)
+  THEN OddCount=OddCount+1
+   AND sum=sum+number
+IF(number==Character to stop input)
+   BREAK
+     THEN output OddCount
+     AND otput (average=sum/OddCount)
